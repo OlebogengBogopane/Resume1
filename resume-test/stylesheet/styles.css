@@ -1,0 +1,239 @@
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body{
+    background: #1f242dd8;
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:90%;
+    padding: 2rem 9%;
+    background:rgba(90, 92, 92, 0.256);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   
+}
+
+.logo{
+    font-size: 2.5rem;
+    color:whitesmoke;
+    font-weight: 700;
+    cursor: default;
+    text-decoration:solid;
+    font-style:inherit;
+    
+}
+
+.navbar a {
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 3rem;
+    transition: .3s;
+    font-style:normal;
+    text-decoration:solid;
+} 
+.navbar a:hover,
+.navbar .cyan{
+    color: aqua;
+}
+
+#menu-icon{
+    font-size: 3rem;
+    color: whitesmoke;
+    display: none;
+
+}
+section{flex: content;
+    min-height: 50rem;
+    padding: 10rem 9% ;
+}
+img{width: 50%;
+border-radius: 50%;
+
+
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.home-content h3:nth-of-type(2){
+    margin-bottom: 2rem;
+}
+h3{
+    color: aqua;
+}
+
+.home-content h1{
+    font-size: 5rem;
+    font-weight: 00;
+    line-height: 1;
+}
+.home-content p {
+    font-size: 1.1rem;
+
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border-radius: 15%;
+    font-size: 2rem;
+    color: aqua;
+    margin: 3rem 1.5rem 3rem 0;
+    text-decoration: none;
+    transition: 2.5s ease;
+}
+.social-media a:hover {
+    background: rgba(0, 255, 255, 0.522);
+    color:whitesmoke;
+    box-shadow: 0 0 1rem cyan;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: rgba(0, 255, 255, 0.255);
+    border-radius: 10rem;
+    box-shadow: 0 0 1rem rgba(0, 255, 255, 0.816);
+    font-size: 1.6rem;
+    color:rgba(245, 245, 245, 0.634);
+    letter-spacing: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:serif;
+    transition: .3s ease ;
+ 
+}
+
+.btn:hover{
+    box-shadow: none;
+
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: rgba(245, 245, 245, 0.268);
+   
+    
+}
+.about-image img{
+    width:70% ;
+}
+
+.heading{
+    text-align:left;
+    font-size: 4rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+.about-content h3{
+    font-size: 2.5rem;
+}
+.about-content p{
+    font-size: 1.3rem;
+    margin: 2rem 0 3rem;
+}
+
+.qualifications {    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: rgba(245, 245, 245, 0.268);}
+
+    .qualifications h2{
+        text-align: left;
+        line-height: 1.2;
+    }
+    .qualifications h4{
+        text-align: left;
+        line-height: 3;
+        font-size: 2.5rem;
+        color: aqua;
+
+    }
+    .contact h2{
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .contact form {
+        max-width: 65rem;
+        margin: 1rem;
+        text-align: center;
+        
+        
+    }
+    .contact form .input-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+
+    .contact form .input-box input, .contact form textarea {
+        width: 100%;
+        padding: 0.8rem;
+        font-size: 1rem;
+        color:rgba(9, 10, 10, 0.679);
+        background:rgba(245, 245, 245, 0.801);
+        border-radius: 1.5rem;
+        margin:1rem 0rem;
+        box-shadow: 0 0 1.2rem;
+    }
+
+    .qualifications{
+        font-size: 1.4rem;
+        color:whitesmoke;
+        text-align: center;
+        ;
+        
+    }
+
+    .home-img{width:300%;
+    height:auto}
+   
+    @media(max-width:500px){
+        
+    body {background: rgba(42, 172, 219, 0.948);}
+    
+
+
+
+    }
+
+    @media(min-width:800px){
+        body{
+            background: rgb(147, 230, 46);
+        }
+
+
+    
+
+    @media(min-width:1024px)
+    body{
+        background:whitesmoke;
+    }
+}
